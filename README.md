@@ -4,7 +4,7 @@ Este repositorio contiene todo el código relacionado con el proyecto final que 
 
 ## Tabla de contenido
 
-The following are the most important topics in this file:
+Estos son los topicos mas importantes que aparecen en este archivo:
 - [Requisitos](#Requisitos)
 - [Arquitectura](#Arquitectura)
   - [Capas](#Capas)
