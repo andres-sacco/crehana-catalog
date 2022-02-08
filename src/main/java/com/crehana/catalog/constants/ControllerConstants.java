@@ -17,6 +17,7 @@ public class ControllerConstants {
     public static final String UPDATED_CITY_SUCCESS = "The city was updated successfully";
 
     public static final String ERROR_MSG = "ERROR - %s";
+    public static final String BAD_FORMAT = "The name or code have a bad format";
 
     private ControllerConstants() {}
 

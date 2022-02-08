@@ -64,7 +64,9 @@ public class CityController {
 
         CityDTO city = new CityDTO(code, name);
 
-        cityValidator.isValid(city);
+        if(!cityValidator.isValid(city)) {
+            throw new CrehanaException(ControllerConstants.BAD_FORMAT);
+        }
 
         return city;
     }

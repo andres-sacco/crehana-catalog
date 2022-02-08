@@ -12,7 +12,7 @@ public class CityValidator {
 
         if(StringUtils.isBlank(city.getCode()) ||
                 StringUtils.isBlank(city.getName()) ||
-                city.getCode().length() == CODE_LENGTH) {
+                city.getCode().length() != CODE_LENGTH) {
             isValid = Boolean.FALSE;
         }
 
