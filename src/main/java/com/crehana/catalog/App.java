@@ -13,7 +13,7 @@ public class App {
 
     public static void main(String[] args) {
         MenuOptionValidator validator = new MenuOptionValidator();
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in).useDelimiter("\n");
 
         MenuController controller = new MenuController(validator, getCityController(scanner), scanner);
         controller.draw();
